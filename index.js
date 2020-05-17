@@ -1,5 +1,5 @@
-import { Client, MessageEmbed } from 'discord.js'
-import CONF from "./config.json"
+import { Client } from 'discord.js'
+import { config as envConfig } from 'dotenv'
 import commandHandlers from "./commands.js"
 
 const client = new Client();
@@ -21,4 +21,5 @@ client.on('message', msg => {
     }
 })
 
-client.login(CONF.token)
+envConfig()
+client.login(process.env.token)
