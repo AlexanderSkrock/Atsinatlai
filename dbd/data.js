@@ -68,8 +68,8 @@ dlc_id 	        STRING
  */
 const getKillers = options => sendDbDApiRequest("killers", options)
 
-export default {
+export {
     getPerks,
     getSurvivors,
-    getKillers,
+    getKillers
 }

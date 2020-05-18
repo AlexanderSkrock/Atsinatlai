@@ -1,34 +1,17 @@
 import { MessageEmbed } from "discord.js"
 import mergeImg from "merge-img"
 import createTempFile from "create-temp-file"
-import SURVIVOR_PERKS from "./res/survivor_perks.json"
-import KILLER_PERKS from "./res/killer_perks.json"
+import { perkImageUrl } from "./dbd/images.js"
+import { getPerks } from "./dbd/data.js"
 
-const lowercaseFirstChar = string => string.charAt(0).toLowerCase() + string.slice(1)
-
-const toTitleCase = string => string
-    .split(/ /g).map(word =>
-        `${word.substring(0,1).toUpperCase()}${word.substring(1)}`)
-    .join(" ");
-
-const toFileName = string => {
-    const normalizedString = string
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .replace(/&/g, "and")
-        .replace(/[-':!]/g, "")
-        .replace(/^[H|h]ex/, "");
-    return lowercaseFirstChar(toTitleCase(normalizedString).replace(/\s/g, ""))
-}
-
-function toPerksEmbed(perkNames, tempFile) {
-    const images = perkNames.map(perkName => `./res/perk_icons/iconPerks_${toFileName(perkName)}.png`)
-    return mergeImg(images)
+function toPerksEmbed(perks, tempFile) {
+    return Promise.all(perks.map(perk => perkImageUrl(perk.perk_tag)))
+        .then(images => mergeImg(images))
         .then(image => new Promise(resolve => image.write(tempFile.path, resolve)))
         .then(() => new MessageEmbed()
             .setColor(0x0099ff)
             .setTitle("Perkroulette")
-            .addFields(perkNames.map((perkName, perkIndex)=> ({ name: `Perk Nr. ${perkIndex + 1}`, value: perkName, inline: true})))
+            .addFields(perks.map((perk, perkIndex) => ({ name: `Perk Nr. ${perkIndex + 1}`, value: perk.perk_name, inline: true})))
             .attachFiles([{ name: "perks.png", attachment: tempFile.path}])
             .setImage("attachment://perks.png"))
 }
@@ -52,7 +35,9 @@ function randomDistinctElementsOf(array, n) {
 const handleSurvivorPerkroulette = () => {
     const tempFile = createTempFile(".png")
     return {
-        result: toPerksEmbed(randomDistinctElementsOf(SURVIVOR_PERKS, 4), tempFile),
+        result: getPerks({ role: "Survivor" })
+            .then(perks => randomDistinctElementsOf(perks, 4))
+            .then(selection => toPerksEmbed(selection, tempFile)),
         cleanup: tempFile.cleanupSync
     }
 }
@@ -60,7 +45,9 @@ const handleSurvivorPerkroulette = () => {
 const handleKillerPerkroulette = () => {
     const tempFile = createTempFile(".png")
     return {
-        result: toPerksEmbed(randomDistinctElementsOf(KILLER_PERKS, 4), tempFile),
+        result: getPerks({ role: "Killer" })
+            .then(perks => randomDistinctElementsOf(perks, 4))
+            .then(selection => toPerksEmbed(selection, tempFile)),
         cleanup: tempFile.cleanupSync
     }
 }

@@ -8,12 +8,12 @@ const KILLER_PORTRAIT_URL = name_tag => `https://raw.githubusercontent.com/dearv
 const KILLER_PREVIEW_URL = name_tag => `https://raw.githubusercontent.com/dearvoodoo/dbd/master/Killers/Preview/${name_tag}.png`
 const KILLER_SHOPBG_URL = name_tag => `https://raw.githubusercontent.com/dearvoodoo/dbd/master/Killers/ShopBG/${name_tag}.png`
 
-export default {
-    perkImageUrl: PEKR_IMAGE_URL,
-    survivorPortraitUrl: SURVIVOR_PORTRAIT_URL,
-    survivorPreviewUrl: SURVIVOR_PREVIEW_URL,
-    survivorShopBgUrl: SURVIVOR_SHOPBG_URL,
-    killerPortraitUrl: KILLER_PORTRAIT_URL,
-    killerPreviewUrl: KILLER_PREVIEW_URL,
-    killerShopBgUrl: KILLER_SHOPBG_URL,
+export {
+    PEKR_IMAGE_URL as perkImageUrl,
+    SURVIVOR_PORTRAIT_URL as survivorPortraitUrl,
+    SURVIVOR_PREVIEW_URL as survivorPreviewUrl,
+    SURVIVOR_SHOPBG_URL as survivorShopBgUrl,
+    KILLER_PORTRAIT_URL as killerPortraitUrl,
+    KILLER_PREVIEW_URL as killerPreviewUrl,
+    KILLER_SHOPBG_URL as killerShopBgUrl,
 }
