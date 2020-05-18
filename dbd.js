@@ -5,6 +5,16 @@
  */
 import fetch from "node-fetch"
 
+const perkImageUrl = perk_tag => `https://raw.githubusercontent.com/dearvoodoo/dbd/master/Perks/${perk_tag}.png`
+
+const survivorPortraitUrl = name_tag => `https://raw.githubusercontent.com/dearvoodoo/dbd/master/Survivors/Portrait/${name_tag}.png`
+const survivorPreviewUrl = name_tag => `https://raw.githubusercontent.com/dearvoodoo/dbd/master/Survivors/Preview/${name_tag}.png`
+const survivorShopBgUrl = name_tag => `https://raw.githubusercontent.com/dearvoodoo/dbd/master/Survivors/ShopBG/${name_tag}.png`
+
+const killerPortraitUrl = name_tag => `https://raw.githubusercontent.com/dearvoodoo/dbd/master/Killers/Portrait/${name_tag}.png`
+const killerPreviewUrl = name_tag => `https://raw.githubusercontent.com/dearvoodoo/dbd/master/Killers/Preview/${name_tag}.png`
+const killerShopBgUrl = name_tag => `https://raw.githubusercontent.com/dearvoodoo/dbd/master/Killers/ShopBG/${name_tag}.png`
+
 const BASE_API_URL = "https://bridge.buddyweb.fr/api/dbd/"
 
 const sendJsonApiRequest = url => fetch(url).then(response => response.json())
@@ -69,6 +79,13 @@ dlc_id 	        STRING
 const getKillers = options => sendDbDApiRequest("killers", options)
 
 export {
+    perkImageUrl,
+    survivorPortraitUrl,
+    survivorPreviewUrl,
+    survivorShopBgUrl,
+    killerPortraitUrl,
+    killerPreviewUrl,
+    killerShopBgUrl,
     getPerks,
     getSurvivors,
     getKillers

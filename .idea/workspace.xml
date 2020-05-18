@@ -2,163 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72163882-7c92-4df9-994a-c490c602c445" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbd/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/dbd/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbd/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/dbd/images.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbd/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbd/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbd/images.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/perkroulette.js" beforeDir="false" afterPath="$PROJECT_DIR$/perkroulette.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/killer_perks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_aNursesCalling.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_aceInTheHole.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_adrenaline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_aftercare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_agitation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_alert.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_anyMeansNecessary.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_artefactHunter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_autodidact.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_babysitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_balancedLanding.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_bamboozle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_barbecueAndChili.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_beastOfPrey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_betterTogether.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_bitterMurmur.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_bloodEcho.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_bloodWarden.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_bloodhound.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_boilOver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_bond.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_borrowedTime.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_botanyKnowledge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_breakdown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_breakout.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_brutalStrength.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_buckleUp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_calmSpirit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_camaraderie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_corruptIntervention.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_coulrophobia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_cruelConfinement.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_danceWithMe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_darkDevotion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_darkSense.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_deadHard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_deadMansSwitch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_decisiveStrike.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_deerstalker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_dejaVu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_deliverance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_detectivesHunch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_devourHope.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_discordance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_distortion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_distressing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_diversion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_dyingLight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_empathy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_enduring.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_fireUp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_fixated.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_flipFlop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_forThePeople.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_franklinsLoss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_furtiveChase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_gearHead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_generatorOvercharge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_hangmansTrick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_hatred.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_hauntedGround.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_headOn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_hexRetribution.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_hope.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_huntressLullaby.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_imAllEars.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_infectiousFright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_innerStrength.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_insidious.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_ironGrasp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_ironMaiden.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_ironWill.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_kindred.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_knockOut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_lastStanding.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_leader.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_leftBehind.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_lightborn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_lightweight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_lithe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_luckyBreak.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_madGrit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_makeYourChoice.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_mettleOfMan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_mindBreaker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_monitorAndAbuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_monstrousShrine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_nemesis.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_noMither.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_noOneEscapesDeath.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_noOneLeftBehind.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_objectOfObsession.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_offTheRecord.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_openHanded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_overwhelmingPresence.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_pharmacy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_playWithYourFood.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_plunderersInstinct.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_poised.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_popGoesTheWeasel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_predator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_premonition.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_proveThyself.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_quickAndQuiet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_redHerring.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_rememberMe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_resilience.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_ruin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_saboteur.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_saveTheBestForLast.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_secondWind.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_selfCare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_shadowborn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_slipperyMeat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_sloppyButcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_smallGame.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_soleSurvivor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_solidarity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_spiesFromTheShadows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_spineChill.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_spiritFury.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_sprintBurst.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_stakeOut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_streetwise.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_stridor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_surge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_surveillance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_technician.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_tenacity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_territorialImperative.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_thanatophobia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_theThirdSeal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_thisIsNotHappening.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_thrillOfTheHunt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_thrillingTremors.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_tinkerer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_toughRunner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_unbreakable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_underperform.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_unnervingPresence.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_unrelenting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_upTheAnte.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_urbanEvasion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_vigil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_wakeUp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_wellMakeIt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_wereGonnaLiveForever.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_whispers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_windowsOfOpportunity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/perk_icons/iconPerks_zanshinTactics.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/survivor_perks.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -196,17 +42,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/perkroulette.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="51">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dbd/images.js">
+        <entry file="file://$PROJECT_DIR$/dbd.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="-792">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -244,11 +93,11 @@
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/dbd.js" />
-        <option value="$PROJECT_DIR$/dbd/data.js" />
-        <option value="$PROJECT_DIR$/dbd/images.js" />
         <option value="$PROJECT_DIR$/dist/perkroulette.js" />
         <option value="$PROJECT_DIR$/dbd/index.js" />
+        <option value="$PROJECT_DIR$/dbd/images.js" />
+        <option value="$PROJECT_DIR$/dbd/data.js" />
+        <option value="$PROJECT_DIR$/dbd.js" />
         <option value="$PROJECT_DIR$/perkroulette.js" />
       </list>
     </option>
@@ -278,11 +127,6 @@
               <item name="atsinatlai" type="b2602c69:ProjectViewProjectNode" />
               <item name="atsinatlai" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atsinatlai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="atsinatlai" type="462c0819:PsiDirectoryNode" />
-              <item name="dbd" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -350,12 +194,12 @@
       <workItem from="1589661332339" duration="3942000" />
       <workItem from="1589720477524" duration="3611000" />
       <workItem from="1589725351651" duration="252000" />
-      <workItem from="1589795034582" duration="8917000" />
+      <workItem from="1589795034582" duration="9132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34142000" />
+    <option name="totallyTimeSpent" value="34357000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,16 +358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dbd/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/perkroulette.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -559,16 +393,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dbd/images.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbd/data.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbd.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        <state relative-caret-position="-792">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/perkroulette.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="51">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>
