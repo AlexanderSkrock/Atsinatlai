@@ -9,7 +9,7 @@ function trimLeft (string, charlist) {
 function buildCommand({ trigger, handler}) {
     return {
         isExecutable: message => message.content.startsWith(trigger),
-        execute: message => handler(trimLeft(message.content, trigger)),
+        execute: handler,
     }
 }
 

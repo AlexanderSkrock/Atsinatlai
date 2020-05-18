@@ -31,24 +31,32 @@ function randomDistinctElementsOf(array, n) {
     return Array.from(result)
 }
 
-const handleSurvivorPerkroulette = () => {
+const handleSurvivorPerkroulette = message => {
     const tempFile = createTempFile(".png")
-    return {
-        result: getPerks({ role: "Survivor" })
+
+    return getPerks({ role: "Survivor" })
             .then(perks => randomDistinctElementsOf(perks, 4))
-            .then(selection => toPerksEmbed(selection, tempFile)),
-        cleanup: tempFile.cleanupSync
-    }
+            .then(selection => toPerksEmbed(selection, tempFile))
+            .then(embed => message.reply(embed))
+            .then(tempFile.cleanupSync)
+            .catch(error => {
+                console.error(error)
+                tempFile.cleanupSync()
+            })
 }
 
-const handleKillerPerkroulette = () => {
+const handleKillerPerkroulette = message => {
     const tempFile = createTempFile(".png")
-    return {
-        result: getPerks({ role: "Killer" })
-            .then(perks => randomDistinctElementsOf(perks, 4))
-            .then(selection => toPerksEmbed(selection, tempFile)),
-        cleanup: tempFile.cleanupSync
-    }
+
+    return getPerks({ role: "Killer" })
+        .then(perks => randomDistinctElementsOf(perks, 4))
+        .then(selection => toPerksEmbed(selection, tempFile))
+        .then(embed => message.reply(embed))
+        .then(tempFile.cleanupSync)
+        .catch(error => {
+            console.error(error)
+            tempFile.cleanupSync()
+        })
 }
 
 export default [

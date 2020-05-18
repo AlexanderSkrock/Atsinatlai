@@ -10,14 +10,8 @@ client.on('ready', () => {
 
 client.on('message', msg => {
     const handler = commandHandlers.find(handler => handler.isExecutable(msg))
-    if (handler) {
-        const {result, cleanup} = handler.execute(msg)
-        result
-            .then(response => msg.reply(response))
-            .then(() => {
-                if (cleanup)
-                    cleanup()
-            })
+    if(handler) {
+        handler.execute(msg)
     }
 })
 
