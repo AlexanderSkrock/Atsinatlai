@@ -1,10 +1,10 @@
 import { MessageEmbed } from "discord.js"
 import mergeImg from "merge-img"
 import createTempFile from "create-temp-file"
-import { perkImageUrl, getPerks } from "./dbd.js"
+import { getPerks } from "./dbd.js"
 
 function toPerksEmbed(perks, tempFile) {
-    return Promise.all(perks.map(perk => perkImageUrl(perk.perk_tag)))
+    return Promise.all(perks.map(perk => perk.icon))
         .then(images => mergeImg(images))
         .then(image => new Promise(resolve => image.write(tempFile.path, resolve)))
         .then(() => new MessageEmbed()

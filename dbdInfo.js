@@ -1,12 +1,13 @@
 import { MessageEmbed } from "discord.js"
-import {getPerks, getSurvivors, getKillers, perkImageUrl, survivorPortraitUrl, killerPortraitUrl} from "./dbd"
+import {getPerks, getSurvivors, getKillers} from "./dbd"
 
-const evalControlSequences = string =>
-    string.replace(/\\n/g, "\n")
-        .replace(/\\r/g, "\r")
-        .replace(/\\t/g, "\t")
-        .replace(/\\f/g, "\f")
-        .replace(/<br>/g, "\n")
+const evalControlSequences = string => string
+    ? string.replace(/\\n/g, "\n")                 
+            .replace(/\\r/g, "\r")
+            .replace(/\\t/g, "\t")
+            .replace(/\\f/g, "\f")
+            .replace(/<br>/g, "\n")
+    : "";
 
 const toSuvivorInfoEmbed = survivor => new MessageEmbed()
     .setColor(0x0099ff)
@@ -18,7 +19,7 @@ const toSuvivorInfoEmbed = survivor => new MessageEmbed()
         { name: "Difficulty", value: survivor.difficulty, inline: true },
         { name: "Overview", value: evalControlSequences(survivor.overview), inline: false }
     ])
-    .setThumbnail(survivorPortraitUrl(survivor.name_tag))
+    .setThumbnail(survivor.icon && survivor.icon.portrait)
 
 const toKillerInfoEmbed = killer => new MessageEmbed()
     .setColor(0x0099ff)
@@ -35,7 +36,7 @@ const toKillerInfoEmbed = killer => new MessageEmbed()
         { name: "Difficulty", value: killer.difficulty, inline: true },
         { name: "Overview", value: evalControlSequences(killer.overview), inline: false }
     ])
-    .setThumbnail(killerPortraitUrl(killer.name_tag))
+    .setThumbnail(killer.icon && killer.icon.portrait)
 
 const toPerkInfoEmbed = perk => new MessageEmbed()
     .setColor(0x0099ff)
@@ -44,9 +45,9 @@ const toPerkInfoEmbed = perk => new MessageEmbed()
         { name: "Role", value: perk.role, inline: true },
         { name: "Available for", value: perk.name, inline: true },
         { name: "Teachable at", value: `Level: ${perk.teach_level}` || "no teachable perk", inline: true },
-        { name: "Description", value: evalControlSequences(perk.desc), inline: false },
+        { name: "Description", value: evalControlSequences(perk.description), inline: false },
     ])
-    .setThumbnail(perkImageUrl(perk.perk_tag))
+    .setThumbnail(perk.icon)
 
 const survivorInfo = message => {
     const survivorName = message.content.replace(/^survivorinfo /, "")
