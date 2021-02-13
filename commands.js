@@ -1,4 +1,5 @@
 import perkrouletteBindings from "./perkroulette.js"
+import dbdInfoBindings from "./dbdInfo.js"
 
 function buildCommand({ trigger, handler }) {
     return {
@@ -7,6 +8,9 @@ function buildCommand({ trigger, handler }) {
     }
 }
 
-const commands = perkrouletteBindings.map(buildCommand)
+const commands = [
+    ...perkrouletteBindings.map(buildCommand),
+    ...dbdInfoBindings.map(buildCommand)
+]
 
 export default commands
