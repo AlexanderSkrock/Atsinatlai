@@ -15,7 +15,7 @@ const killerPortraitUrl = name_tag => `https://raw.githubusercontent.com/dearvoo
 const killerPreviewUrl = name_tag => `https://raw.githubusercontent.com/dearvoodoo/dbd/master/Killers/Preview/${name_tag}.png`
 const killerShopBgUrl = name_tag => `https://raw.githubusercontent.com/dearvoodoo/dbd/master/Killers/ShopBG/${name_tag}.png`
 
-const BASE_API_URL = "https://bridge.buddyweb.fr/api/dbd/"
+const BASE_API_URL = "https://dbd-api.herokuapp.com/"
 
 const sendJsonApiRequest = url => fetch(url).then(response => response.json())
 
