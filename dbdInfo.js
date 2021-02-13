@@ -44,7 +44,7 @@ const toPerkInfoEmbed = perk => new MessageEmbed()
     .addFields([
         { name: "Role", value: perk.role, inline: true },
         { name: "Available for", value: perk.name, inline: true },
-        { name: "Teachable at", value: `Level: ${perk.teach_level}` || "no teachable perk", inline: true },
+        { name: "Teachable at", value: perk.teach_level ? `Level: ${perk.teach_level}` : "no teachable perk", inline: true },
         { name: "Description", value: evalControlSequences(perk.description), inline: false },
     ])
     .setThumbnail(perk.icon)
